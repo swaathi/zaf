@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Zaf",
+    "short_description": "Display events related to the requesterId.",
+    "long_description": "Display events related to the requesterId.",
+    "installation_instructions": "Simply click install."
+  }
+}
