@@ -29,7 +29,6 @@ class Sidebar extends React.Component {
   }
 
   fetchEvents = (requesterId) => {
-    requesterId = 361741907720;
     var url = `https://z3n-developer.zendesk.com/api/sunshine/events?identifier=skcript:user_id:${requesterId}`;
     this.httpGet(url).then(function(data) {
       var events = data.data;
